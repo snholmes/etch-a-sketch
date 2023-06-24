@@ -1,0 +1,17 @@
+#main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    border: 1px black solid;
+}
+
+#card-styles {
+    height: 2em !important;
+    width: 2em;
+}
